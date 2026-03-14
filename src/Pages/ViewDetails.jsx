@@ -1,7 +1,7 @@
 import { Link, useParams } from "react-router-dom";
 import { useState } from "react";
 import products from "../Data/Products";
-import { useCart } from "../context/CartContext";
+import { useCart } from "../Context/CartContext";
 import { useNavigate } from "react-router-dom";
 import { toast, ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
