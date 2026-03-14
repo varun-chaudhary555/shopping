@@ -1,5 +1,5 @@
 import { Link, Outlet, useNavigate } from 'react-router-dom'
-import { useCart } from '../context/CartContext'
+import { useCart } from '../Context/CartContext'
 import { useState } from 'react'
 
 function Home() {
